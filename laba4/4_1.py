@@ -17,9 +17,9 @@ try:
         except ValueError:
             try:
                 floaty = float(val)
-            except ValueError:
-                print("Float")
-            print("Not a num")
+            except ValueError:   
+                print("Not a num")
+            print("Float")
 
         if (i < 0):
             print('negative')
